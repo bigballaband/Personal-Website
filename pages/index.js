@@ -27,10 +27,6 @@ export default function Home({ allPostsData }) {
         <p>Hello, my name is Thomas Thangarajah and I am a second year university student at the University of Waterloo. I am currently in the 
           Math program. My email address is tomthaya5@gmail.com.
         </p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
