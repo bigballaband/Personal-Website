@@ -29,9 +29,9 @@ export default function Home({ allPostsData }) {
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}> 
       <h2 className={utilStyles.headingLg}>Links: </h2>
-      <h5><a href="https://www.linkedin.com/in/thomas-thangarajah-25b690208/">Linkedln</a></h5>
-      <h5><a href="https://github.com/bigballaband">Github</a></h5>
-      <h5>Instagram: @darealbigballaband</h5>
+      <h5><a href="https://www.linkedin.com/in/thomas-thangarajah-25b690208/">Linkedln</a>
+      <a href="https://github.com/bigballaband">Github</a>
+      Instagram: @darealbigballaband</h5>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Personal Projects:</h2>
