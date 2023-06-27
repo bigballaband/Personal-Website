@@ -25,8 +25,13 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>Hello, my name is Thomas Thangarajah and I am a second year university student at the University of Waterloo. I am currently in the 
-          Math program. My email address is tomthaya5@gmail.com. You can find my Linkedln <a href="https://www.linkedin.com/in/thomas-thangarajah-25b690208/">here</a>! My main instagram is @darealbigballaband. My personal projects are below.
-        </p>
+          Math program. You can find my links and personal projects below!</p>
+      </section>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}> 
+      <h2 className={utilStyles.headingLg}>Links: </h2>
+      <h3><a href="https://www.linkedin.com/in/thomas-thangarajah-25b690208/">Linkedln</a></h3>
+      <h3><a href="https://github.com/bigballaband">Github</a></h3>
+      <h3>Instagram: @darealbigballaband</h3>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Personal Projects:</h2>
