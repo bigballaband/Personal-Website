@@ -20,33 +20,6 @@ export async function getStaticProps() {
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
-      <style type="text/css" media="screen">
-        {`
-        body {
-          margin: 0;
-          padding: 0;
-        }
-
-        div#banner {
-          position: absolute;
-          top: 0;
-          left: 0;
-          background-color: #DDEEEE;
-          width: 100%;
-        }
-
-        div#banner-content {
-          width: 800px;
-          margin: 0 auto;
-          padding: 10px;
-          border: 1px solid #000;
-        }
-
-        div#main-content {
-          padding-top: 70px;
-        }
-        `}
-      </style>
       <Head>
         <title>{siteTitle}</title>
       </Head>
@@ -61,6 +34,8 @@ export default function Home({ allPostsData }) {
           <a href="https://www.linkedin.com/in/thomas-thangarajah-25b690208/">Linkedln</a>
           <br />
           <a href="https://github.com/bigballaband">Github</a>
+          <br />
+          <a href="https://leetcode.com/bigballaband/">Leetcode</a>
           <br />
           <a href="https://www.instagram.com/darealbigballaband/">Instagram</a>
         </h5>
