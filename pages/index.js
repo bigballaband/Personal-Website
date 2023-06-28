@@ -41,7 +41,7 @@ export default function Home({ allPostsData }) {
         </h5>
         <br>
         <h5>
-         <a href="/Users/bigballaband/Downloads/ThomasResume%20(8).pdf">Here</a> is the PDF file!
+        <embed src="file:///Users/bigballaband/Downloads/ThomasResume%20(8).pdf" width="800px" height="2100px" />
         </h5>
         </br>
       </section>
