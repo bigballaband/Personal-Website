@@ -35,7 +35,7 @@
   }
   
   .colorInherit {
-    color: bisque;
+    color: inherit;
     border: 20px teal;
   }
   
