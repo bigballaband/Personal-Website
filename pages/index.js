@@ -39,12 +39,11 @@ export default function Home({ allPostsData }) {
           <br />
           <a href="https://www.instagram.com/darealbigballaband/">Instagram</a>
         </h5>
-      </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}> 
-      <h2 className={utilStyles.headingLg}>Resume: </h2>
-      <h4>
-         <a href="file:///Users/bigballaband/Downloads/ThomasResume%20(8).pdf">Here</a> is the PDF file!
-      </h4>
+        <br>
+        <h5>
+         <a href="/Users/bigballaband/Downloads/ThomasResume%20(8).pdf">Here</a> is the PDF file!
+        </h5>
+        </br>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Personal Projects:</h2>
