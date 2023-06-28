@@ -39,11 +39,6 @@ export default function Home({ allPostsData }) {
           <br />
           <a href="https://www.instagram.com/darealbigballaband/">Instagram</a>
         </h5>
-        <br>
-        <h5>
-        <embed src="file:///Users/bigballaband/Downloads/ThomasResume%20(8).pdf" width="800px" height="2100px" />
-        </h5>
-        </br>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Personal Projects:</h2>
