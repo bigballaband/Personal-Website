@@ -38,7 +38,7 @@ export default function Home({ allPostsData }) {
           <a href="https://leetcode.com/bigballaband/">Leetcode</a>
           <br />
           <a href="https://www.instagram.com/darealbigballaband/">Instagram</a>
-        </h5>
+        </h5> 
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Personal Projects:</h2>
