@@ -1,5 +1,5 @@
 ---
-title: 'Workout Checklist App (in progress)'
+title: 'Todo list app'
 date: '2023-06-25'
 ---
 
@@ -8,3 +8,7 @@ I decided to create this project because of my two passions; lifting and coding.
 
 Second entry, July 23rd, 2023:
 The design of the app is complete. Currently it is a simple to do list app, I am going to add features to this app for different days, such as push day, pull day etc. I decided to use React Native to create the app, I was having difficulty using Objective-C. I plan to complete the app in the coming weeks, now that I have no courses to worry about. 
+
+Third entry, August 20th, 2023:
+I have decided to keep the project as a todo list app and create a separate project for lifting. I realized my idea is not as good as I thought it would be so I am going back to the drawing board for a better one. Here is the Github link to the app: [Todo list app]
+(https://github.com/bigballaband/WorkoutChecklistApp).
