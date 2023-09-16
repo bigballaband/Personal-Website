@@ -25,20 +25,8 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello, my name is Thomas Thangarajah and I am a second-year university student at the University of Waterloo. I am currently in the Math program. Checkout my links, resume, and personal projects below!
+          Hello, my name is Thomas Thangarajah and I am a second-year university student at the University of Waterloo. I am currently in the Math program. Checkout my links and personal projects below!
         </p>
-      </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Links:</h2>
-        <h5>
-          <a href="https://www.linkedin.com/in/thomas-thangarajah-25b690208/">Linkedln</a>
-          <br />
-          <a href="https://github.com/bigballaband">Github</a>
-          <br />
-          <a href="https://leetcode.com/bigballaband/">Leetcode</a>
-          <br />
-          <a href="https://www.instagram.com/darealbigballaband/">Instagram</a>
-        </h5> 
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Personal Projects:</h2>
@@ -54,6 +42,19 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Links:</h2>
+        <h5>
+          <a href="https://www.linkedin.com/in/thomas-thangarajah-25b690208/">Linkedln</a>
+          <br />
+          <a href="https://github.com/bigballaband">Github</a>
+          <br />
+          <a href="https://leetcode.com/bigballaband/">Leetcode</a>
+          <br />
+          <a href="https://www.instagram.com/darealbigballaband/">Instagram</a>
+        </h5> 
+      </section>
+      
     </Layout>
   );
 }
