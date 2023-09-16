@@ -25,7 +25,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello, my name is Thomas Thangarajah and I am a second-year university student at the University of Waterloo. I am currently in the Math program. Checkout my links and personal projects below!
+          Hello, my name is Thomas Thangarajah and I am a second-year university student at the University of Waterloo. I am currently in the Math program and am looking for a co-op for the upcoming winter semester. Check out my personal projects and links below!
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
