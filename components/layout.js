@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import '../styles/global.css';
 
 const name = 'Thomas Thangarajah';
 export const siteTitle = 'Thomas Thangarajah\'s website';
