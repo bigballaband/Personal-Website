@@ -23,6 +23,12 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
       <section className={utilStyles.headingMd}>
         <p>
           Hello, my name is Thomas Thangarajah and I am a second-year university student at the University of Waterloo. I am currently in the Math program and am looking for a co-op for the upcoming winter semester. Check out my personal projects and links below!

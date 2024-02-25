@@ -4,7 +4,6 @@
     font-weight: 800;
     letter-spacing: -0.05rem;
     margin: 1rem 0;
-    border: 20px teal;
   }
   
   .headingXl {
@@ -13,20 +12,17 @@
     font-weight: 800;
     letter-spacing: -0.05rem;
     margin: 1rem 0;
-    border: 20px teal;
   }
   
   .headingLg {
     font-size: 1.5rem;
     line-height: 1.4;
     margin: 1rem 0;
-    border: 20px teal;
   }
   
   .headingMd {
     font-size: 1.2rem;
     line-height: 1.5;
-    border: 20px teal;
   }
   
   .borderCircle {
