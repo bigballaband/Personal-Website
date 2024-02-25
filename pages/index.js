@@ -20,12 +20,12 @@ export async function getStaticProps() {
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
-      <div class="topnav">
-        <a class="active" href="#home">Home</a>
+      <nav className="topnav">
+        <a className="active" href="#home">Home</a>
         <a href="./posts/first-post.js">News</a>
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
-      </div>
+      </nav>
       <Head>
         <title>{siteTitle}</title>
       </Head>
@@ -60,8 +60,8 @@ export default function Home({ allPostsData }) {
           <a href="https://www.instagram.com/darealbigballaband/">Instagram</a>
         </h5> 
       </section>
-      
     </Layout>
   );
 }
+
 
