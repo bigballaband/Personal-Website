@@ -10,7 +10,7 @@ export const siteTitle = 'Thomas Thangarajah\'s website';
 export default function Layout({ children, home }) {
   return (
     <div className={styles.body}>
-      <div className={styles.container}>
+      <div className={styles.container}>r
         <Head>
           <link rel="icon" href="/favicon.ico" />
           <meta

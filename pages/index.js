@@ -22,7 +22,6 @@ export default function Home({ allPostsData }) {
     <Layout home>
       <nav className="topnav">
         <a className="active" href="#home">Home</a>
-        <a href="./posts/first-post.js">News</a>
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
       </nav>
