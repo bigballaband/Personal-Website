@@ -16,7 +16,6 @@ export async function getStaticProps() {
 }
 
 
-
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
@@ -25,7 +24,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello, my name is Thomas Thangarajah and I am a second-year university student at the University of Waterloo. I am currently in the Math program and am looking for a co-op for the upcoming winter semester. Check out my personal projects and links below!
+          Hello, my name is Thomas Thangarajah and I am entering my third-year at the University of Waterloo. I am currently enrolled in Computational Math and Statistics double major and am looking for an internship for summer 2025. Check out my personal projects and links below!
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -44,7 +43,7 @@ export default function Home({ allPostsData }) {
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Links:</h2>
-        <h5>
+        <h4>
           <a href="https://www.linkedin.com/in/thomas-thangarajah-25b690208/">Linkedln</a>
           <br />
           <a href="https://github.com/bigballaband">Github</a>
@@ -52,7 +51,7 @@ export default function Home({ allPostsData }) {
           <a href="https://leetcode.com/bigballaband/">Leetcode</a>
           <br />
           <a href="https://www.instagram.com/darealbigballaband/">Instagram</a>
-        </h5> 
+        </h4> 
       </section>
     </Layout>
   );
