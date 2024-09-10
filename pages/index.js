@@ -20,11 +20,6 @@ export async function getStaticProps() {
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
-      <nav className="topnav">
-        <a className="active" href="#home">Home</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-      </nav>
       <Head>
         <title>{siteTitle}</title>
       </Head>
@@ -62,5 +57,4 @@ export default function Home({ allPostsData }) {
     </Layout>
   );
 }
-
 
